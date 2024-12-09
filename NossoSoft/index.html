@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NossoSoft</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="imagens/icons/ns.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+
+                <p>LOGO</p>
+
+                <nav>
+                    <ul>
+                        <li><a href=".banner" class="Scroll">INÍCIO</a></li>
+                        <li><a href=".bannerdois"class="Scroll" >SOBRE</a></li>
+                        <li><a href=".bannertres" class="Scroll">SERVIÇOS</a></li>
+                        <li><a href=".bannerquatro" class="Scroll">GALERIA</a></li>
+                        <li><a href=".bannercinco" class="Scroll">EQUIPE</a></li>
+                        <li><a href=".bannerseis" class="Scroll">CONTATO</a></li>
+                    </ul>
+                </nav>
+
+                <div class="contato">
+                    <a href="" target="_blank"><img id="fb" src="imagens/icons/f1.svg" alt=""></a>
+                    <a href="" target="_blank"><img id="inst" src="imagens/icons/i1.svg" alt=""></a>
+                    <a href="" target="_blank"><img id="wpp" src="imagens/icons/w1.svg" alt=""></a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="banner">
+        <a href=".bannerseis" class="Scroll" class="button">ENTRE EM CONTATO</a>
+    </div>
+
+    <div  class="bannerdois">
+        <div id="text">
+            <h1 id="sobre">SOBRE</h1>
+            <p>Somos uma empresa júnior em tecnologia sediada em Natal/RN, fundada em 2023 com o propósito de criar novas oportunidades e fornecer uma perspectiva inovadora para o campo de desenvolvimento de software em nossa cidade. Além do desenvolvimento de software, também atuamos com impressão 3D.</p>
+        </div>
+        <div id="img">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=rFomZew2BDw&pp=ygUOY3Vyc28gZW0gdmlkZW8%3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        </div>
+
+    </div>
+    
+    <div  class="bannertres">
+        <h1>SERVIÇOS</h1>
+        <ul id="serv">
+            <li>
+                <h3>Desenvolvimento de Sistemas</h3>
+                <img src="imagens/img-serv/pexels-mikhail-nilov-7988086.jpg" alt="">
+            </li>
+            <li>
+                <h3>Web Design</h3>
+                <img src="imagens/img-serv/pexels-picjumbocom-196644.jpg" alt="">
+            </li>
+            <li>
+                <h3>Otimização de Sistemas</h3>
+                <img src="imagens/img-serv/pexels-sora-shimazaki-5935788.jpg" alt="">
+            </li>
+            <li>
+                <h3>Impressão 3D</h3>
+                <img src="imagens/img-serv/imp3d.jpg" alt="">
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="bannerquatro">
+        <div id="carrossel">
+            <div id="btns">
+                <input type="button" value="EQUIPE" id="e" onclick="equipe()">
+                <input type="button" value="PALESTRAS" id="p" onclick="palestra()">
+                <input type="button" value="IMPRESSÃO 3D" id="i" onclick="imp3d()">
+            </div>
+
+            <div class="containerimages">
+
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+
+                <div class="gallery-wrapper">
+
+                  <div class="gallery">
+
+                    <img src="imagens/img-car-3d/_DSC0330.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0343.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0352.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0363.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0367.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0370.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0374.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0378.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0379.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-3d/_DSC0381.JPG" alt="" class="item current-item">
+                    <img src="imagens/img-car-palestras/IMG-20230831-WA0139.jpg" alt="" class="item current-item">
+                    <img src="imagens/img-car-palestras/IMG-20230831-WA0140.jpg" alt="" class="item current-item">
+                   
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+
+        <div id="links">
+            <h1>REDES SOCIAIS</h1>
+            <a href="">
+                <img src="imagens/img-site/BG_INICIO.png" alt="">
+                <section>
+                    <h3>INSTAGRAM</h3>
+                    <p>Última postagem</p>
+                </section>
+            </a>
+            <a href="">
+                <img src="imagens/img-site/BG_INICIO.png" alt="">
+                <section>
+                    <h3>INSTAGRAM</h3>
+                    <p>Última postagem</p>
+                </section>
+            </a>
+            <a href="">
+                <img src="imagens/img-site/BG_INICIO.png" alt="">
+                <section>
+                    <h3>INSTAGRAM</h3>
+                    <p>Última postagem</p>
+                </section>
+            </a>
+            <a href="">
+                <img src="imagens/img-site/BG_INICIO.png" alt="">
+                <section>
+                    <h3>INSTAGRAM</h3>
+                    <p>Última postagem</p>
+                </section>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="bannercinco">
+        <h1>EQUIPE</h1>
+        
+        <div id="car-cards">
+            
+            <button id="prev-button" onclick="cardsb()"><img src="seta.png" alt=""></button>
+            <img src="imagens/img-car-3d/_DSC0370.JPG" alt="" id="imge">
+
+            <div class="wrapper">
+                <div class="single-card">
+                    <div class="front">
+                        <img src="" alt="" id="crachafrente">
+                    </div>
+                    <div class="back">
+                        <img src="" alt="" id="crachaverso">
+                    </div>
+                </div>
+            </div>
+
+            
+            <img src="imagens/img-car-3d/_DSC0374.JPG" alt="" id="imgd">
+            <button id="next-button" onclick="cardsa()"><img src="seta.png" alt=""></button>
+           
+        </div>
+        
+       
+    </div>
+
+    <div class="bannerseis">
+
+        <div id="contato">
+            <h1>CONTATO</h1>
+            <p> <img src="imagens/icons/localização_icon.svg" alt="" class="icon"> Av. Engenheiro Roberto Freire, 1514 - Capim Macio, Natal - RN, 59080-400</p>
+            <p> <img src="imagens/icons/email_icon.svg" alt="" class="icon"> nossosoft@gmail.com</p>
+            <p> <img src="imagens/icons/phone_icon.svg" alt="" class="icon"> (84) 99993-4551</p>
+            <div id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.990221876633!2d-35.19995528311362!3d-5.85699686707387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff3f8bd1d317%3A0x7f4b691e3f5681de!2sUNINASSAU%20-%20Natal!5e0!3m2!1spt-BR!2sbr!4v1693944781546!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+
+        <div id="forms">
+            <form action="" autocomplete="off">
+                <input type="text" name="" id="nome" placeholder="Nome" required>
+                <input type="text" name="" id="sobrenome" placeholder="Sobrenome">
+                <p><input type="email" name="" id="email" placeholder="E-mail" required></p>
+                <p>
+                    <input type="tel" name="" id="tel" placeholder="Telefone" required>
+                    <select name="" id="servs" required>
+                        <option value="" selected disabled value="">Serviço</option>
+                        <option value="">Desenvolvimento de Sistema</option>
+                        <option value="">Web Design</option>
+                        <option value="">Otimização de Sistema</option>
+                        <option value="">Impressão 3D</option>
+                        <option value="">Outro</option>
+                    </select>
+                </p>
+                <p>
+                    <textarea name="" id="desc" cols="30" rows="10" placeholder="Descrição" required></textarea>
+                </p>
+                <div id="fbt"><input type="button" value="ENVIAR" id="formbtn"></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>NossoSoft - Todos os Direitos Reservados</p>
+            <a href="#">Termo de Responsabilidade</a>
+            <p>INÍCIO - SOBRE - SERVIÇOS - GALERIA - EQUIPE - CONTATO</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
